@@ -35,6 +35,7 @@ export default {
   methods: {
     handleCopy(text, event) {
       clip(text, event)
+      // 生活
     },
     clipboardSuccess() {
       this.$message({
